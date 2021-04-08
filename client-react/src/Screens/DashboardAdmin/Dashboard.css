@@ -1,0 +1,80 @@
+.dashboard_admin {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard_admin h1 {
+  margin: 20px 0 35px 0;
+  color: #ff584b;
+  font-size: 4vh;
+  text-align: center;
+}
+
+.dashboar_todo {
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+}
+
+.td_nueva_clase {
+  background-color: #40d06f;
+}
+
+.pefil_dashboard {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 30px 0;
+}
+
+.td_dashboard {
+  background-color: #1b262c;
+  color: #fff;
+}
+.td_nueva_clase {
+  background-color: #0f4c75;
+}
+
+.nueva_clase {
+  color: white;
+}
+
+.nueva_clase:hover {
+  color: #40d06f;
+}
+
+/* Button */
+.btn_clases_btn {
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  margin: 0 0 5px 0;
+}
+
+.btn_clases-btn {
+  background-color: var(--primary);
+  color: #fff;
+  border: 1px solid var(--primary);
+}
+
+.btn_clases-btn:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #3282b8;
+  transition: 250ms;
+}
+
+.btn_borrar {
+  color: #ff584b;
+}
+
+.dashboard_clases-head {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}

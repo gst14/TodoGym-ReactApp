@@ -1,0 +1,41 @@
+{
+  "name": "todogym",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "client": "npm start --prefix client-react",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaspanu/TodoGym.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaspanu/TodoGym/issues"
+  },
+  "homepage": "https://github.com/lucaspanu/TodoGym#readme",
+  "dependencies": {
+    "@fullcalendar/interaction": "^5.4.0",
+    "@sendgrid/mail": "^7.3.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.6.1",
+    "google-auth-library": "^6.1.3",
+    "jsonwebtoken": "^8.5.1",
+    "jwt": "^0.2.0",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "stripe": "^8.120.0"
+  }
+}
